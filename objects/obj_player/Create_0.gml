@@ -1,3 +1,11 @@
-/// @description init
-ySpd = 0;
+/// @description INIT
+state = "falling";
+isWarping = false;
+isStanding = false;
+wpX = -1;
+wpY = -1;
+riseRun = 0;
+warpDir = 0;
 warpDist = 0;
+warpTimer = 0;
+ySpd = 0;

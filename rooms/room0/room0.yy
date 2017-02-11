@@ -9,7 +9,6 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "f4cc8f23-5fcf-4ed5-8c4b-3d77e39cfb4c",
         "8ea3fd6f-a5ad-44b8-b550-77787fcd9a88",
         "1a2b9daa-7a87-4ce7-9d20-38092991ac96",
         "c820dd5b-83ec-4a12-a67e-e1a34c5ddf7d",
@@ -25,7 +24,8 @@
         "888edbe7-e3c4-420f-b577-77d8fbfbf3af",
         "27cc1319-6eba-4f58-abe6-0397aa3e408e",
         "7cb5b8c3-ca2d-48af-a8d4-28913a5df01a",
-        "5ba8d64d-113f-4170-ba9b-d1adb59f8c11"
+        "5ba8d64d-113f-4170-ba9b-d1adb59f8c11",
+        "87482c84-af59-423c-ae9e-7063cf166135"
     ],
     "layers": [
         {
@@ -51,30 +51,6 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                {
-                    "id": "f4cc8f23-5fcf-4ed5-8c4b-3d77e39cfb4c",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_53B51D83",
-                    "x": 160,
-                    "y": 640,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_53B51D83",
-                    "objId": "74388821-62fc-46f2-ad7b-f2866214a077",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
                 {
                     "id": "8ea3fd6f-a5ad-44b8-b550-77787fcd9a88",
                     "modelName": "GMRInstance",
@@ -349,7 +325,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3A1485EF",
                     "x": 288,
-                    "y": 384,
+                    "y": 512,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -361,7 +337,7 @@
                     "objId": "f2d5d7b6-f5a8-4f75-a3a9-ea81c9c3f24b",
                     "rotation": 0,
                     "scaleX": 1,
-                    "scaleY": 8
+                    "scaleY": 4
                 },
                 {
                     "id": "888edbe7-e3c4-420f-b577-77d8fbfbf3af",
@@ -458,6 +434,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 3
+                },
+                {
+                    "id": "87482c84-af59-423c-ae9e-7063cf166135",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_5A5C7F4B",
+                    "x": 224,
+                    "y": 352,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_5A5C7F4B",
+                    "objId": "88d4e1fa-c1b5-4f52-af67-c4017a0f7c5d",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -538,7 +538,7 @@
             "hspeed": -1,
             "hview": 768,
             "inherit": false,
-            "objId": "74388821-62fc-46f2-ad7b-f2866214a077",
+            "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 200,
             "visible": true,
             "vspeed": -1,
