@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "b835db23-8823-4018-9503-4bc08e02dd4a",
+            "Value": {
+                "id": "349b4b7f-efe8-492a-8b1b-a5adac2a5beb",
+                "resourcePath": "shaders\\shd_warp\\shd_warp.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "c7a261e1-4255-4eae-8e49-bcff6a404783",
             "Value": {
                 "id": "52f1a909-0c19-45be-9ce7-55aa2718e50d",
