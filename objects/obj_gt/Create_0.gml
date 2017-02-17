@@ -2,5 +2,4 @@
 randomize();
 timePause = false;
 
-bugsSquashed = 0;
-potionsPickedUp = 0;
+globalvar myScore;
