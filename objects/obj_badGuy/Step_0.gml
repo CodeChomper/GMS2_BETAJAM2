@@ -22,3 +22,5 @@ if(obj_gt.timePause){
 		x += (xSpd * dir);
 	}
 }
+
+if(state == "dead") instance_destroy();
