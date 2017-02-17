@@ -4,7 +4,7 @@
 if(place_meeting(x,y+ySpd,obj_block)){
 	ySpd = 0;
 } else {
-	ySpd += 0.6;
+	ySpd += 0.06;
 }
 
 y+= ySpd;

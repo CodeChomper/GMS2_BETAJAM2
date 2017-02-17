@@ -1,2 +1,4 @@
 /// @description Die
-room_restart();
+if(state != "warping"){
+	room_restart();
+}
