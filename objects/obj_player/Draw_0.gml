@@ -32,6 +32,6 @@ if(isWarping){
 //draw health bar
 draw_set_color(c_lime);
 draw_set_alpha(0.5);
-draw_rectangle(x-20,y-30,x-20+(health/2), y-40,false);
+draw_rectangle(x-20,y-10-sprite_height,x-20+(health/2), y-15-sprite_height,false);
 draw_set_alpha(1);
 	
