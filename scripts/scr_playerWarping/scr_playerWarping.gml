@@ -1,7 +1,13 @@
 /// @drescription Player Warping State
 
-//Start of warping state
+if(!audio_is_playing(snd_warp) && !warpSndPlayed){ 
+	//audio_stop_sound(snd_wub);
+	audio_play_sound(snd_warp,1,false);
+	warpSndPlayed = true;
+}
 
+//Start of warping state
+sprite_index = spr_player_warp
 if(!isWarping){
 	isWarping = true;
 	y--;

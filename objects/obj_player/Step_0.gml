@@ -1,5 +1,5 @@
 /// @description Player State Machine
-if(x < 0 || x > room_width || y < 0 || y > room_height) state="dead";
+
 switch(state){
 	case "idle":
 		scr_playerIdle();

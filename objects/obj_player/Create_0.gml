@@ -17,6 +17,7 @@ curWarpPossible = maxWarpDist;
 startX = x;
 startY = y;
 health = 100;
+warpSndPlayed = false;
 
 
 pixelH_Handle = shader_get_uniform(shd_warp,"pixelH");

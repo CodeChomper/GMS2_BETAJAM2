@@ -1,5 +1,9 @@
 /// @description Player Idle state
+warpSndPlayed = false;
+if(!audio_is_playing(snd_wub))
+audio_play_sound(snd_wub,1,true);
 
+sprite_index = spr_player_idle;
 // Check transition to falling
 if(!place_meeting(x,y+ySpd,obj_block)){
 	state = "falling";
@@ -8,7 +12,6 @@ if(!place_meeting(x,y+ySpd,obj_block)){
 
 // Check transition to warping
 if(mouse_check_button_released(mb_left) &&
-	distance_to_point(mouse_x,mouse_y) > 20 &&
 	mouse_x != x){
 	state = "warping";
 	return;
