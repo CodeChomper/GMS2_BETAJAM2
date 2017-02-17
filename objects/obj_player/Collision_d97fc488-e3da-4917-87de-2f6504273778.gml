@@ -1,2 +1,4 @@
 /// @description Die
-room_restart();
+if(state == "idle"){
+	state = "dead";
+}

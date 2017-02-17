@@ -1,0 +1,1 @@
+global.myScore = 0;
