@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00b783a3-c772-4648-bf0d-3e676865e8ea",
+            "Value": {
+                "id": "8e1705dc-8c7e-451f-b169-7fe56f54359c",
+                "resourcePath": "sprites\\spr_potion\\spr_potion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "034f31dc-7986-40e3-9f0e-4ce772dba5f0",
             "Value": {
                 "id": "b0a8eea2-1e0d-46cb-a87c-03ae48d0573d",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "0d6856b8-ab13-44e5-abbf-ee61abf0c9d3",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8f21b3a0-ce6c-465a-945c-c1bb7ab9cba4",
+            "Value": {
+                "id": "09164a81-73c8-49d5-813e-bb852b34d91a",
+                "resourcePath": "objects\\obj_potion\\obj_potion.yy",
                 "resourceType": "GMObject"
             }
         },

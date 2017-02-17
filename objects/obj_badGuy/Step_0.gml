@@ -10,7 +10,7 @@ if(place_meeting(x,y+ySpd,obj_block)){
 y+= ySpd;
 
 //Check if time is paused
-if(obj_gt.timePause){
+if(obj_gt.timePause || place_free(x,y+1)){
 	image_speed = 0;
 }else {
 	image_speed = 3;
@@ -23,4 +23,8 @@ if(obj_gt.timePause){
 	}
 }
 
-if(state == "dead") instance_destroy();
+if(state == "dead"){
+	obj_gt.bugsSquashed++;
+	instance_destroy();
+}
+	

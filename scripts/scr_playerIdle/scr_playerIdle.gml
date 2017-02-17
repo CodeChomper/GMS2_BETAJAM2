@@ -15,3 +15,5 @@ if(mouse_check_button_released(mb_left)){
 if(curWarpPossible > minWarpDist){
 	curWarpPossible--;
 }
+
+health -= 0.05;

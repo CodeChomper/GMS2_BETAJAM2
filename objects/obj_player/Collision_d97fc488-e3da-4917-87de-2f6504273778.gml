@@ -1,4 +1,4 @@
 /// @description Die
-if(state != "warping"){
+if(state == "idle"){
 	room_restart();
 }
