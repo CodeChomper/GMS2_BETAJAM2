@@ -17,3 +17,5 @@ if(curWarpPossible > minWarpDist){
 }
 
 health -= 0.05;
+
+if(health <= 0) state = "dead";
