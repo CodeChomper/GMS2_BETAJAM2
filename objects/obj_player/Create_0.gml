@@ -18,7 +18,7 @@ startX = x;
 startY = y;
 health = 100;
 warpSndPlayed = false;
-
+if(room == 1)global.myScore = 0;
 
 pixelH_Handle = shader_get_uniform(shd_warp,"pixelH");
 pixelW_Handle = shader_get_uniform(shd_warp,"pixelW");

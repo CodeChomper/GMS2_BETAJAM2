@@ -24,7 +24,7 @@ if(obj_gt.timePause || place_free(x,y+1)){
 }
 
 if(state == "dead"){
-	myScore++;
+	global.myScore++;
 	instance_destroy();
 }
 	

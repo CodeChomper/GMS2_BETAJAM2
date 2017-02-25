@@ -13,6 +13,9 @@ if(spawnPause <= 0){
 		case 5:
 		type = obj_potion;
 		break;
+		default:
+		type = obj_piece;
+		break;
 	}
 	var obj = instance_create_layer(random_range(32,room_width - 32),0,"things",type);
 	obj.ySpd = 3;

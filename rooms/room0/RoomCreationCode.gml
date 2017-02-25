@@ -1,1 +1,1 @@
-global.myScore = 0;
+myScore = 0;

@@ -2,4 +2,4 @@
 randomize();
 timePause = false;
 
-globalvar myScore;
+global.myScore = 0;
